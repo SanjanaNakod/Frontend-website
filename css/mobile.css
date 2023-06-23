@@ -1,0 +1,113 @@
+@media (min-width:1300px) and (max-width:1800px){
+    .content-left{
+        margin: 0px 0px 0px 300px;
+
+    }
+}
+@media screen and (max-width:1355px){
+    .content-left, .home-articles{
+        margin: 0px 0px 0px 0px;
+
+    }
+    .content{
+        position: sticky;
+    }
+    .content-right{
+        display: none;
+    }
+    .logo{
+        margin: 0px 20px;
+    }
+    .nav-left {
+        display: flex;
+        background-color: var(--main-bg-color);
+        height: 15vh;
+        width: 100%;
+        position: sticky;
+        /* margin-top: 20px; */
+        flex-direction: row;
+      }
+      .nav-left ul li {    margin: 11px 40px;}
+      .nav-left ul {
+        margin:0;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        /* font-weight: bold; */
+      }
+      .nav-left a {
+        display: inline;
+        padding: 3px;
+    }
+}
+@media screen and (max-width:1000px){
+    .content-left, .home-articles{
+        margin: 0px 0px 0px 0px;
+
+    }
+    .content-right{
+        display: none;
+    }
+    .logo{
+        margin:0px 300px;
+    }
+    .nav-left {
+        display: flex;
+        background-color: var(--main-bg-color);
+        height: 15vh;
+        width: 100%;
+        flex-direction:column;
+      }
+      .nav-left ul li {    margin: 11px 20px;}
+      .nav-left ul {
+        margin:0;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        /* font-weight: bold; */
+      }
+      .nav-left a {
+        display: inline;
+        padding: 3px;
+    }
+}
+@media screen and (max-width:400px){
+    .content-left, .home-articles{
+        margin: 0px 0px 0px 0px;
+
+    }
+    .content-right{
+        display: none;
+    }
+    .logo{
+       display: none;
+    }
+    .nav-left {
+        display: flex;
+        background-color: var(--main-bg-color);
+        height: 15vh;
+        width: 100%;
+        flex-direction:column;
+      }
+      .nav-left ul li {
+        margin: 4px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .home-article {
+        display: flex;
+        margin: 10px;
+        flex-direction: column;
+    }
+      .nav-left ul {
+        margin:0;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        /* font-weight: bold; */
+      }
+      .nav-left a {
+        display: inline;
+        padding: 3px;
+    }
+}
